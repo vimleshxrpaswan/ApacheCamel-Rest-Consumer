@@ -1,0 +1,9 @@
+Server:
+  port: 65535
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cameldb
+    username: postgres
+    password: javadevs
+    driver-class-name: org.postgresql.Driver
